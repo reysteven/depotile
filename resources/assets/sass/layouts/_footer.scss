@@ -1,0 +1,105 @@
+@import "../variables";
+
+/* ----- Footer ----- */
+.footerWrap {
+  width: 100%;
+  height:auto;
+  border-top: 4px solid $orange;
+  background-color: $blue-dark;
+  .footerSubWrap {
+    padding: 40px 0;
+    .row {
+      .col-md-2,.col-md-3 {
+        border-left: 1px solid $white;
+        min-height: 225px;
+        &:first-child {
+          border: 0;
+        }
+      }
+    }
+    .footerTitle {
+      padding-left: 15px;
+      font-size: 17px;
+      line-height: 24px;
+      padding-bottom: 25px;
+      font-family: $font-family-sans-serif;
+      font-weight: $font-size-light;
+      color: $white;
+    }
+    .sosmed
+    {
+      padding-left: 15px;
+      li {
+        margin-bottom: 10px;
+      }
+    }
+    .footerList {
+      padding-left: 15px;
+      li {
+        a {
+          padding:3px 2px;
+          font-family: $font-family-sans-serif;
+          font-weight: $font-size-light;
+          font-size: 12px;
+          color: $white;
+          &:hover {
+            padding-left: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+.copyrightWrap
+{
+  width: 100%;
+  height:auto;
+  padding: 20px 0 15px;
+  background-image: url($pattern-header);
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: auto 100%;
+  background-color: $white;
+  h4 {
+    font-family: $font-family-sans-serif;
+    font-weight: $font-size-normal;
+    font-size: 16px;
+    color: $gray-darker;
+  }
+  p {
+    font-family: $font-family-sans-serif;
+    font-weight: $font-size-normal;
+    font-size: 14px;
+    color: $gray-darker;
+  }
+  h5 {
+    font-family: $font-family-sans-serif;
+    font-weight: $font-size-semibold;
+    font-size: 14px;
+    color: $blue-dark;
+    text-align: center;
+    margin: 0;
+  }
+}
+
+/* ----- RESPONSIVE FOOTER ----- */
+@media #{$desktopHD} {}
+@media #{$desktop} {}
+@media #{$tablet} {
+  .footerWrap {
+   .footerSubWrap {
+     padding:40px 0 20px;
+   }
+  }
+  .removeBor {
+    border: 0 !important;
+  }
+  .mobileCenter
+  {
+    text-align: center;
+    margin-top: 35px;
+    min-height: 80px !important;
+  }
+}
+@media #{$mobile} {}
+@media #{$small-mobile} {}

@@ -1,0 +1,27 @@
+
+// Fonts
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700);
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+// Vendor
+@import "vendor/selectpicker";
+@import "vendor/fancybox";
+@import "vendor/mmenu";
+
+// Templates
+@import "layouts/templates";
+@import "layouts/header";
+@import "layouts/menu";
+@import "layouts/footer";
+@import "layouts/home";
+@import "layouts/product";
+@import "layouts/cart";
+@import "layouts/profile";
+@import "layouts/payment";
+@import "layouts/auth";
+@import "layouts/static";

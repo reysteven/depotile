@@ -1,0 +1,54 @@
+[10-Jan-2017 22:35:31 America/Chicago] PHP Warning:  require(/home/depp1239/public_html/bootstrap/../vendor/autoload.php): failed to open stream: No such file or directory in /home/depp1239/public_html/bootstrap/autoload.php on line 17
+[10-Jan-2017 22:35:31 America/Chicago] PHP Fatal error:  require(): Failed opening required '/home/depp1239/public_html/bootstrap/../vendor/autoload.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/depp1239/public_html/bootstrap/autoload.php on line 17
+[11-Jan-2017 00:00:07 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 00:00:11 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 02:40:42 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 02:42:27 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 02:43:25 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 02:43:41 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 02:45:20 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 02:45:23 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 02:45:24 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 02:45:25 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 03:19:28 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 03:51:44 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 03:54:03 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 04:16:14 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 04:26:29 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 04:26:31 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 04:30:52 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 04:31:07 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 04:31:08 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 04:31:11 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 04:31:17 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 04:31:19 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 04:31:19 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 04:31:20 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 04:32:06 America/Chicago] PHP Catchable fatal error:  Object of class Illuminate\Foundation\Application could not be converted to string in /home/depp1239/public_html/public/index.php on line 38
+[11-Jan-2017 04:32:08 America/Chicago] PHP Catchable fatal error:  Object of class Illuminate\Foundation\Application could not be converted to string in /home/depp1239/public_html/public/index.php on line 38
+[11-Jan-2017 04:32:09 America/Chicago] PHP Catchable fatal error:  Object of class Illuminate\Foundation\Application could not be converted to string in /home/depp1239/public_html/public/index.php on line 38
+[11-Jan-2017 04:32:10 America/Chicago] PHP Catchable fatal error:  Object of class Illuminate\Foundation\Application could not be converted to string in /home/depp1239/public_html/public/index.php on line 38
+[11-Jan-2017 04:32:10 America/Chicago] PHP Catchable fatal error:  Object of class Illuminate\Foundation\Application could not be converted to string in /home/depp1239/public_html/public/index.php on line 38
+[11-Jan-2017 04:32:11 America/Chicago] PHP Catchable fatal error:  Object of class Illuminate\Foundation\Application could not be converted to string in /home/depp1239/public_html/public/index.php on line 38
+[11-Jan-2017 04:32:13 America/Chicago] PHP Catchable fatal error:  Object of class Illuminate\Foundation\Application could not be converted to string in /home/depp1239/public_html/public/index.php on line 38
+[11-Jan-2017 04:32:13 America/Chicago] PHP Catchable fatal error:  Object of class Illuminate\Foundation\Application could not be converted to string in /home/depp1239/public_html/public/index.php on line 38
+[11-Jan-2017 04:32:14 America/Chicago] PHP Catchable fatal error:  Object of class Illuminate\Foundation\Application could not be converted to string in /home/depp1239/public_html/public/index.php on line 38
+[11-Jan-2017 04:32:14 America/Chicago] PHP Catchable fatal error:  Object of class Illuminate\Foundation\Application could not be converted to string in /home/depp1239/public_html/public/index.php on line 38
+[11-Jan-2017 04:32:14 America/Chicago] PHP Catchable fatal error:  Object of class Illuminate\Foundation\Application could not be converted to string in /home/depp1239/public_html/public/index.php on line 38
+[11-Jan-2017 04:32:14 America/Chicago] PHP Catchable fatal error:  Object of class Illuminate\Foundation\Application could not be converted to string in /home/depp1239/public_html/public/index.php on line 38
+[11-Jan-2017 04:32:15 America/Chicago] PHP Catchable fatal error:  Object of class Illuminate\Foundation\Application could not be converted to string in /home/depp1239/public_html/public/index.php on line 38
+[11-Jan-2017 04:32:15 America/Chicago] PHP Catchable fatal error:  Object of class Illuminate\Foundation\Application could not be converted to string in /home/depp1239/public_html/public/index.php on line 38
+[11-Jan-2017 04:32:15 America/Chicago] PHP Catchable fatal error:  Object of class Illuminate\Foundation\Application could not be converted to string in /home/depp1239/public_html/public/index.php on line 38
+[11-Jan-2017 04:32:15 America/Chicago] PHP Catchable fatal error:  Object of class Illuminate\Foundation\Application could not be converted to string in /home/depp1239/public_html/public/index.php on line 38
+[11-Jan-2017 04:32:25 America/Chicago] PHP Catchable fatal error:  Object of class Illuminate\Foundation\Application could not be converted to string in /home/depp1239/public_html/public/index.php on line 38
+[11-Jan-2017 04:32:39 America/Chicago] PHP Catchable fatal error:  Object of class Illuminate\Foundation\Application could not be converted to string in /home/depp1239/public_html/public/index.php on line 39
+[11-Jan-2017 04:32:54 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 04:32:55 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 04:33:01 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 04:33:05 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 04:33:19 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 04:33:32 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 04:33:36 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 04:35:35 America/Chicago] PHP Fatal error:  Class 'ee_database' not found in /home/depp1239/public_html/config/serverconfig.php on line 11
+[11-Jan-2017 04:36:52 America/Chicago] PHP Deprecated:  mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead in /home/depp1239/public_html/config/connect.php on line 8
+[11-Jan-2017 04:36:52 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/depp1239/public_html/config/connect.php on line 8

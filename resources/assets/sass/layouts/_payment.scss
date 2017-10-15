@@ -1,0 +1,51 @@
+@import "../variables";
+
+/* ----- PAYMENT ----- */
+.paymentContent {
+  width: 100%;
+  height:auto;
+  position: relative;
+  .subWrapPaymentContent {
+    width: 500px;
+    min-height:100px;
+    margin: 35px auto;
+    .paymentBtn {
+      margin: 0 auto;
+      width: 280px;
+      min-height: 10px;
+      display: block;
+      padding: 10px 0;
+      text-align: center;
+      background-color: $orange;
+      color: $white;
+      border: 0;
+      outline: 0;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: $font-size-semibold;
+      font-family: $font-family-sans-serif;
+      border-radius: 0;
+      &.marTop {
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+/* ----- RESPONSIVE ----- */
+@media #{$desktopHD} {}
+@media #{$desktop} {}
+@media #{$tablet} {
+}
+@media #{$mobile} {
+  .paymentContent {
+    .subWrapPaymentContent {
+      width: 100%;
+      padding: 0 25px;
+      .paymentBtn {
+        width: 100%;
+      }
+    }
+  }
+}
+@media #{$small-mobile} {}

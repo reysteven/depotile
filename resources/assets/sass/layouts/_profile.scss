@@ -1,0 +1,408 @@
+@import "../variables";
+
+/* ----- PROFILE ----- */
+.titleProfileWrap {
+  width: 100%;
+  height:auto;
+  .titleSubProfileWrap {
+    width: 100%;
+    height:auto;
+    border-bottom: 1px solid $border-header;
+    h2 {
+      font-size: 20px;
+      font-weight: $font-size-semibold;
+      font-family: $font-family-sans-serif;
+      color: $blue-dark;
+      text-transform: capitalize;
+      display: inline-block;
+      margin: 20px 0 20px;
+    }
+  }
+}
+.profileContent {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin-top: 20px;
+  padding-bottom: 35px;
+  .profileMenu {
+    width: 100%;
+    height: auto;
+    position: relative;
+    ul {
+      width: 100%;
+      margin: 0 0 20px;
+      padding: 0;
+      li {
+        width: 100%;
+        text-align: left;
+        &.active {
+          a {
+            background-color: $blue-dark;
+            color: $white;
+          }
+        }
+        a {
+          display: block;
+          padding: 10px 35px;
+          font-size: 15px;
+          font-weight: $font-size-normal;
+          font-family: $font-family-sans-serif;
+          color: $gray-dark;
+        }
+      }
+    }
+  }
+  .leftBor {
+    border-left: 1px solid $border-header;
+  }
+  .profileMain {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 0 5px 10px 25px;
+    h3 {
+      font-size: 15px;
+      font-weight: $font-size-normal;
+      font-family: $font-family-sans-serif;
+      color: $blue-dark;
+      border-bottom: 1px solid $border-header;
+      padding: 10px;
+      margin: 0;
+      display: block;
+    }
+    .profileBtn {
+      &.back {
+        background-color: $product-disc !important;
+        float: left !important;
+      }
+      &.btnReview {
+        font-size: 16px !important;
+        padding: 5px 0;
+        margin-bottom: 10px;
+      }
+      margin: 0;
+      float: right;
+      width: 280px;
+      display: block;
+      padding: 10px 0;
+      text-align: center;
+      background-color: $orange;
+      color: $white;
+      border: 0;
+      outline: 0;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: $font-size-semibold;
+      font-family: $font-family-sans-serif;
+      border-radius: 0;
+      &.marTop {
+        margin-top: 15px;
+      }
+    }
+  }
+}
+.addressRow {
+  width: 100%;
+  height:auto;
+  padding-bottom: 15px;
+  margin-top: 15px;
+  border-bottom: 1px solid $border-header;
+  position: relative;
+  p {
+    font-size: 14px;
+    font-weight: $font-size-normal;
+    font-family: $font-family-sans-serif;
+    color: $gray-light;
+    margin: 0;
+    line-height: 20px;
+  }
+  a {
+    position: absolute;
+    right: 5px;
+    bottom: 15px;
+    font-size: 14px;
+    font-weight: $font-size-normal;
+    font-family: $font-family-sans-serif;
+    cursor: pointer;
+  }
+}
+.orderRow {
+  width: 100%;
+  height: auto;
+  // border: 1px solid $border-header;
+  margin-top: 15px;
+  padding: 10px 10px 0;
+  .orderRowTitle {
+    padding-top: 6%;
+    width: 100%;
+    height:auto;
+    h4 {
+      font-size: 16px;
+      font-weight: $font-size-normal;
+      font-family: $font-family-sans-serif;
+      color: $gray-dark;
+      border-bottom: 1px solid $border-header;
+      display: block;
+      margin: 0;
+      padding-bottom: 10px;
+    }
+  }
+  .orderRowContent {
+    width: 100%;
+    height:auto;
+    h5 {
+      font-weight: $font-size-semibold;
+      font-family: $font-family-sans-serif;
+      color: $gray-dark;
+    }
+    p {
+      font-weight: $font-size-normal;
+      font-family: $font-family-sans-serif;
+      color: $gray-dark;
+    }
+    a {
+      margin-top: 25px;
+      display: block;
+    }
+    .orderState {
+      width: 100%;
+      margin: 0;
+      color: $white;
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      &.success {
+        background-color: $brand-success;
+      }
+    }
+  }
+}
+.orderDetailContent {
+  width: 100%;
+  height:auto;
+  margin-top: 15px;
+  .orderDetailTop {
+    width: 100%;
+    height:auto;
+    padding-bottom: 15px;
+    border-bottom: 1px solid $border-header;
+    .mainShipping {
+      border-bottom: 1px solid $border-header;
+      padding-bottom: 25px;
+      margin-bottom: 15px;
+      &.noBor {
+        border-bottom: 0 !important;
+      }
+      h3 {
+        font-weight: $font-size-semibold;
+        padding: 0;
+        border-bottom: 0 !important;
+        margin: 0 0 25px;
+        color: $gray-dark;
+      }
+    }
+    .borLeft {
+      border-left: 1px solid $border-header;
+    }
+  }
+  .orderDetailBottom {
+    width: 100%;
+    height:auto;
+    .subMainTotal {
+      margin-top: 15px !important;
+    }
+  }
+}
+
+.reviewRow {
+  width: 100%;
+  height:auto;
+  margin: 10px 0;
+  position: relative;
+  .leftReview {
+    width: 10%;
+    float: left;
+    padding: 0 10px 0 0;
+  }
+  .rightReview {
+    width: 90%;
+    float: left;
+    h2 {
+      font-size: 16px;
+      font-weight: $font-size-semibold;
+      font-family: $font-family-sans-serif;
+      color: $gray-dark;
+      text-transform: uppercase;
+      margin: 0 0 15px;
+    }
+  }
+
+}
+.rating {
+  position: absolute;
+  top: 0;
+  right: 0;
+  .ratingSubWrap {
+    width: 100px;
+    height: 20px;
+    margin: 0;
+    list-style: none;
+    padding: 0;
+    float: right;
+    &.noCursor {
+      .starLi {
+        cursor: default;
+      }
+    }
+    .starLi {
+      &.active {
+        img {
+          display: block;
+        }
+      }
+      width: 16px;
+      height: 15px;
+      float: left;
+      margin: 2px;
+      background-image: url($star-low);
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      cursor: pointer;
+      img {
+        float: left;
+        width: 100%;
+        display: none;
+      }
+    }
+  }
+  p {
+    float: right;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: $font-size-normal;
+    font-family: $font-family-sans-serif;
+    margin: 0;
+    padding:  0 10px 0 0;
+  }
+}
+
+
+
+/* ----- RESPONSIVE ----- */
+@media #{$desktopHD} {
+  .reviewRow {
+    .leftReview {
+      width: 12%;
+    }
+    .rightReview {
+      width: 88%;
+    }
+  }
+}
+@media #{$desktop} {
+  .reviewRow {
+    .leftReview {
+      width: 16%;
+    }
+    .rightReview {
+      width: 84%;
+    }
+  }
+}
+@media #{$tablet} {
+ .profileContent {
+   .profileMenu {
+     ul {
+       margin: 0 0 35px;
+       padding: 0;
+       li {
+         border-bottom: 1px solid $border-header;
+         &.active {
+           a {
+             background-color: $blue-dark;
+             color: $white;
+           }
+         }
+         a {
+           display: block;
+           padding: 10px 25px;
+           font-size: 15px;
+           font-weight: $font-size-normal;
+           font-family: $font-family-sans-serif;
+           color: $gray-dark;
+         }
+       }
+     }
+   }
+   .profileMain {
+     padding: 0 15px;
+     .profileBtn {
+       width: 100%;
+     }
+   }
+ }
+  .addressRow {
+    padding-bottom: 40px;
+  }
+  .reviewRow {
+    .leftReview {
+      width: auto;
+      img {
+        width: 68px;
+      }
+    }
+    .rightReview {
+      width: 80%;
+      input {
+        width: 100%;
+      }
+    }
+  }
+  .rating {
+    float: left;
+    text-align: center;
+    width: 100%;
+    display: block;
+    position: relative;
+    padding: 5px 0;
+    p {
+     display: none;
+    }
+    .ratingSubWrap {
+      float: none;
+      display: inline-block;
+      padding-top: 8px;
+    }
+  }
+  .orderRow {
+    .orderRowContent {
+      h5 {
+       font-size: 12px;
+      }
+      p {
+        font-size: 12px;
+      }
+      .orderState {
+        font-size: 12px;
+      }
+    }
+  }
+}
+@media #{$mobile} {
+  .reviewRow {
+    .leftReview {
+      width: auto;
+      img {
+        width: 68px;
+      }
+    }
+    .rightReview {
+      width: 65%;
+    }
+    .text-center {
+      text-align: left !important;
+    }
+  }
+}
+@media #{$small-mobile} {}

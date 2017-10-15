@@ -1,0 +1,188 @@
+@import "../variables";
+
+/* ----- STATIC ----- */
+.showroomWrap {
+  width: 100%;
+  height:auto;
+  background-color: $blue-dark;
+  .showroomLeft {
+    float: left;
+    width: 30%;
+    height:auto;
+    .showroomTitle {
+      width: 70%;
+      padding-right: 45px;
+      float: right;
+      margin-top: 25px;
+      height:auto;
+      h1 {
+        font-family: $font-family-sans-serif;
+        font-size: 32px;
+        font-weight: $font-size-bold;
+        color: $white;
+        text-transform: uppercase;
+        margin: 35px 0 0;
+      }
+      p {
+        margin-top: 25px;
+        font-family: $font-family-sans-serif;
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: $font-size-light;
+        color: $white;
+        margin-bottom: 0;
+      }
+    }
+  }
+  .showroomRight {
+    float: left;
+    width: 70%;
+    height:auto;
+  }
+}
+.showroomContent{
+  width: 100%;
+  height:auto;
+  background-color: $white;
+  padding: 25px 0;
+  text-align: center;
+  .col-sm-4 {
+    min-height: 200px;
+  }
+  .borLeft {
+    border-left: 1px solid $border-header;
+  }
+  h2 {
+    font-family: $font-family-sans-serif;
+    font-size: 18px;
+    font-weight: $font-size-normal;
+    color: $blue-dark;
+    margin: 10px 0 20px;
+    padding: 0 15px;
+  }
+  span {
+    width: 100%;
+    height:auto;
+    display: block;
+    padding: 0 15px;
+  }
+  p {
+    font-family: $font-family-sans-serif;
+    font-size: 16px;
+    font-weight: $font-size-normal;
+    color: $gray-dark;
+    margin: 0;
+    padding: 0 15px;
+  }
+}
+
+/* ----- RESPONSIVE ----- */
+@media #{$desktopHD} {}
+@media #{$desktop} {
+  .showroomWrap {
+    width: 100%;
+    height:auto;
+    background-color: $blue-dark;
+    .showroomLeft {
+      float: left;
+      width: 40%;
+      height:auto;
+      .showroomTitle {
+        width: 70%;
+        padding-right: 25px;
+        float: right;
+        margin-top: 0px;
+        height:auto;
+        h1 {
+          font-family: $font-family-sans-serif;
+          font-size: 26px;
+          font-weight: $font-size-bold;
+          color: $white;
+          text-transform: uppercase;
+          margin: 25px 0 0;
+        }
+        p {
+          margin-top: 15px;
+          font-family: $font-family-sans-serif;
+          font-size: 13px;
+          line-height: 18px;
+          font-weight: $font-size-light;
+          color: $white;
+          margin-bottom: 0;
+        }
+      }
+    }
+    .showroomRight {
+      float: left;
+      width: 60%;
+      height:auto;
+    }
+  }
+}
+@media #{$tablet} {
+  .showroomWrap {
+    width: 100%;
+    height:auto;
+    background-color: $blue-dark;
+    margin-top: 55px;
+    .showroomLeft {
+      float: left;
+      width: 100%;
+      height:auto;
+      .showroomTitle {
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        float: right;
+        margin-top: 0px;
+        height:auto;
+        text-align: center;
+        h1 {
+          font-family: $font-family-sans-serif;
+          font-size: 24px;
+          font-weight: $font-size-bold;
+          color: $white;
+          text-transform: uppercase;
+          margin: 25px 0 0;
+        }
+        p {
+          margin-top: 15px;
+          font-family: $font-family-sans-serif;
+          font-size: 12px;
+          line-height: 16px;
+          font-weight: $font-size-light;
+          color: $white;
+          margin-bottom: 25px;
+        }
+      }
+    }
+    .showroomRight {
+      float: left;
+      width: 100%;
+      height:auto;
+    }
+  }
+  .showroomContent {
+    width: 100%;
+    height: auto;
+    background-color: $white;
+    padding: 25px 0;
+    text-align: center;
+    .col-sm-4 {
+      min-height: 200px;
+    }
+    .borLeft {
+      border-left: 1px solid $border-header;
+      &:last-child {
+        border-left:  0 !important;
+      }
+    }
+    .dividerShowroom {
+      width: 100%;
+      height:35px;
+      position: relative;
+    }
+  }
+}
+@media #{$mobile} {}
+@media #{$small-mobile} {}

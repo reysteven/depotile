@@ -71,7 +71,12 @@ Route::get('register', 'RegisterController@index');
 Route::post('doRegister', 'RegisterController@register');
 Route::get('email-confirm{a}', 'RegisterController@doConfirm');
 
+// LOOKBOOK CONTROLLER
+// -------------------
 Route::get('lookbook', 'LookbookController@index');
+
+// SHOWROOM CONTROLLER
+// -------------------
 Route::get('showroom', 'ShowroomController@index');
 
 // ABOUT CONTROLLER

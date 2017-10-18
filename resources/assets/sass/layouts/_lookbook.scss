@@ -1,0 +1,135 @@
+@import "../variables";
+
+.lookbook-mainslide {
+  width: 100%;
+  height: auto;
+  position: relative;
+
+  .imgFull {
+    margin-bottom: 15px;
+  }
+}
+
+.lookbook-section2 {
+  width: 100%;
+  height:auto;
+  margin: 25px 0 45px;
+
+  .lookbook-title {
+    font-size: 18px;
+    font-weight: $font-size-semibold;
+    font-family: $font-family-sans-serif;
+    color: $gray-darker;
+    padding: 0 0 10px 0;
+    margin: 0;
+  }
+
+  .lookbook-desc {
+    font-size: 14px;
+    font-weight: $font-size-light;
+    font-family: $font-family-sans-serif;
+    color: $gray-darker;
+    line-height: 20px;
+  }
+
+  .lookbook-link {
+    color: $gray-darker;
+    padding-bottom: 25px;
+    display: inline-block;
+    position: relative;
+  }
+
+  .itemBox {
+    width: 100%;
+    height: auto;
+    position: relative;
+    margin-bottom: 15px;
+    .itemDesc {
+      margin-top: 5px;
+      width: 100%;
+      height:auto;
+      h4 {
+        font-size: 15px;
+        font-weight: $font-size-semibold;
+        font-family: $font-family-sans-serif;
+        color: $gray-darker;
+        margin: 0;
+      }
+      p {
+        font-size: 14px;
+        font-weight: $font-size-light;
+        font-family: $font-family-sans-serif;
+        color: $gray-darker;
+        margin: 0;
+        span {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+.lookbook-secondslide {
+  width: 100%;
+  height: auto;
+  position: relative;
+  z-index: 10;
+}
+
+.lookbook-hanging {
+  position: absolute;
+  top: 15px;
+  padding:20px 20px 20px 150px;
+  font-size: 28px;
+  color: $white;
+  background-color: $blue-dark;
+  text-transform: uppercase;
+}
+
+/* ----- RESPONSIVE ----- */
+@media #{$desktopHD} {}
+@media #{$desktop} {
+  .lookbook-hanging {
+    position: absolute;
+    top: 5px;
+    padding:15px 15px 15px 80px;
+    font-size: 20px;
+    color: $white;
+    background-color: $blue-dark;
+    text-transform: uppercase;
+  }
+}
+@media #{$tablet} {
+  .titleGlobalWrap {
+    padding-top: 55px;
+  }
+  .lookbook-hanging {
+    position: absolute;
+    top: 0px;
+    padding:10px 10px 10px 60px;
+    font-size: 18px;
+    color: $white;
+    background-color: $blue-dark;
+    text-transform: uppercase;
+  }
+  .mobile-pad {
+    .col-xs-6:first-child {
+      padding-right: 7.5px !important;
+    }
+    .col-xs-6:last-child {
+      padding-left: 7.5px !important;
+    }
+  }
+}
+@media #{$mobile} {
+  .lookbook-hanging {
+    position: absolute;
+    top: -5px;
+    padding:10px 10px 10px 60px;
+    font-size: 18px;
+    color: $white;
+    background-color: $blue-dark;
+    text-transform: uppercase;
+  }
+}
+@media #{$small-mobile} {}

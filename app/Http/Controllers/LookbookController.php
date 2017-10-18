@@ -95,7 +95,8 @@ class LookbookController extends Controller {
 
         // ==========================================================================================
 
-        return view('lookbook/lookbook', $data);
+        return view('lookbook/lookbook-menu', $data);
+        return view('static/lookbook', $data);
         
     }
 
